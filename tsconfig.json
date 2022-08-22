@@ -5,10 +5,14 @@
 			"es2019"
 		],
 		"types": [
-			"node",
+			"node"
+		],
+		"typeRoots": [
+			"./typings",
+			"./node_modules/@types/"
 		],
 		"module": "commonjs",
-		"noImplicitAny": true,
+		"noImplicitAny": false,
 		"removeComments": true,
 		"strictNullChecks": true,
 		"strict": true,
@@ -20,11 +24,12 @@
 		"sourceMap": true,
 		"esModuleInterop": true,
 		"useUnknownInCatchVariables": false,
+		"allowJs": true,
 	},
 	"include": [
 		"credentials/**/*",
 		"nodes/**/*",
 		"nodes/**/*.json",
 		"package.json",
-	],
+	]
 }
