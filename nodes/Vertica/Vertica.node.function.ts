@@ -14,7 +14,7 @@ export async function Disconnect(client: Vertica.Connection) {
 export async function Query(client: Vertica.Connection, sql: string): Promise< IDataObject[] >{
 	return new Promise((resolve, reject) => {
 		client.query(sql, (err , resultset: Vertica.Resultset) =>{
-			console.log(resultset)
+			// console.log(resultset)
 			const result: IDataObject[] = [] ;
 			resultset.rows.forEach((row) => {
 				const d: IDataObject = {};

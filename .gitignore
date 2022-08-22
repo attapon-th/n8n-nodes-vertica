@@ -8,3 +8,4 @@ yarn.lock
 .vscode/launch.json
 /test
 /_test
+/Taskfile.yaml

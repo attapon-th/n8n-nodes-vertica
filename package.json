@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-vertica",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "test node n8n for vertica",
   "keywords": [
     "n8n-community-node-package"
@@ -9,7 +9,7 @@
   "homepage": "",
   "author": {
     "name": "attapon-th",
-    "email": "attapon.srem@gmail.com"
+    "email": "attapon_srem@hotmail.com"
   },
   "repository": {
     "type": "git",
@@ -49,10 +49,6 @@
     "typescript": "~4.6.0"
   },
   "dependencies": {
-    "v-connection-string": "^1.0.0",
-    "v-pool": "^1.0.0",
-    "v-protocol": "^1.0.0",
-    "vertica": "^0.5.5",
-    "vertica-nodejs": "^1.0.0"
+    "vertica": "^0.5.5"
   }
 }
